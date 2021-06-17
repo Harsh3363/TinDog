@@ -1,0 +1,158 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat-black";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.features-text {
+  font-color: #8f8f8f;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;//even if we reove this  z-index it will remain at top as we can see in tree in resources i.e. both are positioned and featuresis below image//
+}
+
+.features-div {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonial {
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat-black";
+  background-color: #ff4c68;
+}
+
+.testimonial-txt {
+  padding: 10% 25%;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  padding-bottom: 3%;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+  padding: 0 1%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-button {
+  margin-top: 100px;
+}
+
+.pricing-button2 {
+  margin-top: 60px;
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+#footer-head{
+  color: #fff;
+  font-family: Montserrat-black;
+  font-size: 3.5rem;
+
+}
+.foot-bt{
+  margin: 5% 3% 5% 0;
+}
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+.foot-icon{
+  padding: 10% 1%;
+}
+
+@media(max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
